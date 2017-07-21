@@ -6,7 +6,7 @@ $total=$pdo->query("select * from member")->rowCount();
 //echo $total;  //查看是否能获取总记录数
 //每页的条数
 $pagesize=3;
-//总页数
+//获取总页数
 $pageTotal=ceil($total/$pagesize);
 //当前页等于查询字符串中的page的值
 if($_GET['page']){
