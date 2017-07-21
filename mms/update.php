@@ -1,4 +1,5 @@
 <?php
+//添加这段文字看下是否添加上了
 include 'commom.php';
 //如果没有id传递，跳转到首页
 if($_GET['id']){
